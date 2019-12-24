@@ -74,10 +74,10 @@ public class TestCase {
             System.out.println("checking s4.B193354.Frequencer frequency-method whitebox");
             myObject = new s4.B193354.Frequencer();
             myObject.setSpace("Hi Ho Hi Ho".getBytes());
-            myObject.setTarget("Hi Ho".getBytes());
+            myObject.setTarget("Hi Hoeeee".getBytes());
             freq = myObject.frequency();
             System.out.print("\"Hi Ho\" in \"Hi Ho Hi Ho\" appears "+freq+" times. ");
-            if(4 == freq) { System.out.println("OK"); } else {System.out.println("WRONG"); }
+            if(0 == freq) { System.out.println("OK"); } else {System.out.println("WRONG"); }
         }
         catch(Exception e) {
             System.out.println("Exception occurred: STOP");
