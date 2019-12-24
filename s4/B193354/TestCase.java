@@ -76,7 +76,7 @@ public class TestCase {
             myObject.setSpace("Hi Ho Hi Ho".getBytes());
             myObject.setTarget("Hi Hoeeee".getBytes());
             freq = myObject.frequency();
-            System.out.print("\"Hi Ho\" in \"Hi Ho Hi Ho\" appears "+freq+" times. ");
+            System.out.print("\"Hi Hoeeee\" in \"Hi Ho Hi Ho\" appears "+freq+" times. ");
             if(0 == freq) { System.out.println("OK"); } else {System.out.println("WRONG"); }
         }
         catch(Exception e) {
